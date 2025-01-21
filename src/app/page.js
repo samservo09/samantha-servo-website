@@ -1,0 +1,23 @@
+import Image from "next/image";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+import AboutSection from "./components/AboutSection";
+import ProjectsSection from "./components/ProjectsSection";
+import PublicationsSection from "./components/PublicationsSection";
+import TalksSection from "./components/TalksSection";
+import EmailSection from "./components/EmailSection";
+export default function Home() {
+  return (
+      <main className="flex min-h-screen flex-col bg-[#f1f5f3] container mx-auto px-12 py-4">  
+      <Navbar />
+      <div className="container mt-24 mx-auto px-12 py-4">
+        <HeroSection />
+        <AboutSection />
+        <ProjectsSection />
+        <PublicationsSection />
+        <TalksSection />
+        <EmailSection />
+      </div> 
+      </main>
+  )
+}
