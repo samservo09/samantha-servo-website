@@ -12,7 +12,7 @@ const HeroSection = () => {
         <div className="col-span-7 flex flex-col items-center sm:items-start text-center sm:text-left">
           <h1 className="text-[#687771] mb-6 text-3xl sm:text-5xl lg:text-6xl font-extrabold leading-snug sm:leading-normal lg:leading-snug">
             <span className="text-transparent bg-clip-text bg-[#002347]">
-              Samantha Servo {" "}
+              Samantha Servo: {" "}
             </span>
             <TypeAnimation
               sequence={[
@@ -28,7 +28,7 @@ const HeroSection = () => {
                 2000,
                 "Bioinformatics",
                 2000,
-                "BEYOND THE VINCULUM :>",
+                "BEYOND THE VINCULUM",
                 2000,
               ]}
               wrapper="span"
