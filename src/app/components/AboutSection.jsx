@@ -16,6 +16,7 @@ const TAB_DATA = [
                 <li><strong>Machine Learning:</strong> Jupyter Notebook, Google Colaboratory</li>
                 <li><strong>Chatbot Development:</strong> Dialog Flow</li>
                 <li><strong>Web Development Framework:</strong> Flutter, Laravel</li>
+                <li><strong>Content Management Systems:</strong> Contentful</li>
                 <li><strong>Others: </strong>Research, Technical and Creative Writing</li>
             </ul>
         )
@@ -39,7 +40,8 @@ const TAB_DATA = [
                 <li>AWS Certified Cloud Practitioner</li>
                 <li>Certified in Cybersecurity - International Information System Security Certification Consortium (ISC)2</li>
                 <li>Completed DOST SPARTA’s Data Science Pathway </li>
-                <li>Online Training on Python</li>
+                <li>DataCamp Certifications (check my Linkedin for more info)</li>
+                <li>Online Training on Python - Bayan Academy</li>
             </ul>
         )
     }
