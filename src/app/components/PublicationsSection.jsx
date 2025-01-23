@@ -46,8 +46,13 @@ const PublicationsSection = () => {
         />
         <PublicationsTag
           onClick={handleTagChange}
-          tag="Undergrad"
-          isSelected={tag === "Undergrad"}
+          tag="Academic"
+          isSelected={tag === "Academic"}
+        />
+        <PublicationsTag
+          onClick={handleTagChange}
+          tag="Technical"
+          isSelected={tag === "Technical"}
         />
         {/* Add more tags as needed */}
       </div>

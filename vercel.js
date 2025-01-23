@@ -1,1 +1,11 @@
-{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+module.exports = {
+    async rewrites() {
+      return [
+        {
+          source: "/(.*)",
+          destination: "/",
+        },
+      ];
+    },
+  };
+  
